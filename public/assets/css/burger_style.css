@@ -1,0 +1,106 @@
+body {
+    background-image: url(../img/burger-cheese-melting.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    color: yellow;
+    font-family: "Optima";
+    font-size: 43px;
+}
+
+#Burger-name {
+    height: 40px;
+    width: 225px;
+    border-radius: 5px;
+    font-size: 30px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.container-head{
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 20px;
+}
+#peeps{
+    height: 75%;
+    width: 75%;
+}
+.create-form{
+    text-align: center;
+}
+textarea{
+    resize: none;
+}
+.change-state, .delete, #btnSubmit{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.toEat{
+    background-color: transparent;
+    border: transparent;
+    font-weight: bolder;
+    width: 250px;
+    font-size: 25px;
+}
+.container-burgers{
+    max-width: 700px;
+    margin: auto;
+}
+.row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+.left-div{
+    display:flex;
+    flex-direction:column;
+}
+.right-div{
+    display:flex;
+    flex-direction:column;
+}
+ul{
+    list-style-type: none;
+}
+li {
+    padding: 5px;
+    margin: 5px;
+    background: #f3cd9c;
+    border-radius: 5px;
+}
+.footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:20px;
+    width:100%;
+    text-align: center;
+    color: rgb(3, 3, 88);
+    z-index: -1;
+}
+.display {
+    width: 225px;
+    font-size: 22px;
+    font-weight: bolder;
+    vertical-align: bottom;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border: none;
+}
+
+.liAte {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.delete-burger {
+    border: none;
+    background: none;
+}
