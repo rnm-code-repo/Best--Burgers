@@ -1,6 +1,6 @@
 # Best-Burgers
 
-An Application to manage Burger-Menu
+#### Webpage to manage restaurant orders
 - - -
 This Application uses following Stack
    - NodeJS 
